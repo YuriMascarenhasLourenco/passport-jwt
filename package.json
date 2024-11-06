@@ -1,0 +1,28 @@
+{
+  "name": "passport-jwt",
+  "version": "1.0.0",
+  "description": "training the use of passport lib and strategies",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "tsx --env-file=.env --watch src/server.ts"
+  },
+  "author": "Yuri Lourenço",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "@types/passport": "^1.0.17",
+    "@types/passport-http": "^0.3.11",
+    "prisma": "^5.22.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "passport": "^0.7.0",
+    "passport-http": "^0.3.0"
+  }
+}
